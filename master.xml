@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Master Suite">
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="testCases.TC001_VerifyBasicAuthFunctionality" />
+			<class name="testCases.TC002_VerifyFormAuthentication" />
+			<class name="testCases.TC003_VerifyDisappearingElements" />
+			<class name="testCases.TC004_VerifyFileUpload" />
+			<class name="testCases.TC005_VerifyDropdownListFunctionality" />
+			<class name="testCases.TC006_VerifyAddRemoveElements" />
+			<class name="testCases.TC007_VerifyFloatingMenuFunctionality" />
+			<class name="testCases.TC008_VerifyHoversActions" />
+			<class name="testCases.TC009_VerifyDragAndDrop" />			
+			<class name="testCases.TC010_VerifyJavaScriptAlerts" />
+			<class name="testCases.TC011_VerifyKeyPresses" />
+						
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
