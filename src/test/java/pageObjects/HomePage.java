@@ -10,7 +10,6 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 
-	
 	// ***** WebElements *****
 
 	@FindBy(xpath = "//a[normalize-space()='Drag and Drop']")
@@ -45,8 +44,10 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//a[normalize-space()='Add/Remove Elements']")
 	WebElement linkAddRemoveElements;
-	
-	
+
+	@FindBy(xpath = "//a[normalize-space()='Inputs']")
+	WebElement linkInputs;
+
 	// ***** Actions *****
 
 	public void clickDragAndDrop() {
@@ -88,8 +89,12 @@ public class HomePage extends BasePage {
 	public void clickKeyPresses() {
 		linkKeyPresses.click();
 	}
-	
-	public void clickAddRemoveElements() {		
+
+	public void clickAddRemoveElements() {
 		linkAddRemoveElements.click();
+	}
+
+	public void clickInputs() {
+		linkInputs.click();
 	}
 }

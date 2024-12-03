@@ -24,6 +24,7 @@
 			<class name="testCases.TC009_VerifyDragAndDrop" />			
 			<class name="testCases.TC010_VerifyJavaScriptAlerts" />
 			<class name="testCases.TC011_VerifyKeyPresses" />
+			<class name="testCases.TC012_VerifyInputsFunctionality" />
 						
 		</classes>
 	</test> <!--

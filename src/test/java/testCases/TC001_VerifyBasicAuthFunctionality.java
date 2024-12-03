@@ -12,20 +12,16 @@ public class TC001_VerifyBasicAuthFunctionality extends BaseClass {
 	public void verify_BasicAuthFunctionality() {
 
 		logger.info("***** Starting verify_BasicAuthFunctionality *****");
-		try {
-			BasicAuthPage bap = new BasicAuthPage(driver);
 
-			bap.navigateToBasicAuth("admin", "admin");
+		BasicAuthPage bap = new BasicAuthPage(driver);
 
-			boolean authStatus = bap.isAuthSuccessMessageDisplayed();
+		bap.navigateToBasicAuth("admin", "admin");
 
-			// Validate the success message
-			Assert.assertTrue(authStatus, "Basic Auth success message is not displayed.");
+		boolean authStatus = bap.isAuthSuccessMessageDisplayed();
 
-		} catch (Exception e) {
+		// Validate the success message
+		Assert.assertTrue(authStatus, "Basic Auth success message is not displayed.");
 
-			Assert.fail("Test failed due to an exception: " + e.getMessage());
-		}
 		logger.info("***** Ending verify_BasicAuthFunctionality *****");
 	}
 }

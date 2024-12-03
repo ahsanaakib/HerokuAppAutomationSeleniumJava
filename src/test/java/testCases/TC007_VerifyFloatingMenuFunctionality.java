@@ -13,26 +13,22 @@ public class TC007_VerifyFloatingMenuFunctionality extends BaseClass {
 	public void verify_FloatingMenuFunctionality() {
 
 		logger.info("***** Starting verify_FloatingMenuFunctionality *****");
-		try {
-			HomePage hp = new HomePage(driver);
-			hp.clickFloatingMenu();
 
-			FloatingMenuPage fmp = new FloatingMenuPage(driver);
+		HomePage hp = new HomePage(driver);
+		hp.clickFloatingMenu();
 
-			fmp.scrollDown();
+		FloatingMenuPage fmp = new FloatingMenuPage(driver);
 
-			// Verify that the floating menu is still visible
-			Assert.assertTrue(fmp.isFloatingMenuVisible(), 
-					"Floating menu is not visible after scrolling!");
+		fmp.scrollDown();
 
-			// Verify links are click able
-			Assert.assertTrue(fmp.verifyMenuLinks(), 
-					"Some floating menu links are not functional!");
+		// Verify that the floating menu is still visible
+		Assert.assertTrue(fmp.isFloatingMenuVisible(), 
+				"Floating menu is not visible after scrolling!");
 
-		} catch (Exception e) {
+		// Verify links are click able
+		Assert.assertTrue(fmp.verifyMenuLinks(), 
+				"Some floating menu links are not functional!");
 
-			Assert.fail("Test failed due to an exception: " + e.getMessage());
-		}
 		logger.info("***** Ending verify_FloatingMenuFunctionality *****");
 	}
 }

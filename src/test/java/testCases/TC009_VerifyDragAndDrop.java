@@ -13,23 +13,19 @@ public class TC009_VerifyDragAndDrop extends BaseClass {
 	public void verify_DragAndDrop() {
 
 		logger.info("***** Starting verify_DragAndDrop *****");
-		try {
-			HomePage hp = new HomePage(driver);
-			hp.clickDragAndDrop();
 
-			DragAndDropPage ddp = new DragAndDropPage(driver);
+		HomePage hp = new HomePage(driver);
+		hp.clickDragAndDrop();
 
-			ddp.performDragAndDrop();
+		DragAndDropPage ddp = new DragAndDropPage(driver);
 
-			// Validate drag-and-drop success
-			boolean isSuccessful = ddp.isDragAndDropSuccessful();
+		ddp.performDragAndDrop();
 
-			Assert.assertTrue(isSuccessful, "Drag and drop operation failed.");
+		// Validate drag-and-drop success
+		boolean isSuccessful = ddp.isDragAndDropSuccessful();
 
-		} catch (Exception e) {
+		Assert.assertTrue(isSuccessful, "Drag and drop operation failed.");
 
-			Assert.fail("Test failed due to an exception: " + e.getMessage());
-		}
 		logger.info("***** Ending verify_DragAndDrop *****");
 	}
 }

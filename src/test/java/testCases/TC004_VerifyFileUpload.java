@@ -13,7 +13,7 @@ public class TC004_VerifyFileUpload extends BaseClass {
 	public void verify_FileUpload() {
 		
 		logger.info("***** Starting verify_FileUpload *****");
-		try {
+		
 			HomePage hp = new HomePage(driver);
 			hp.clickFileUpload();
 
@@ -28,10 +28,6 @@ public class TC004_VerifyFileUpload extends BaseClass {
 			Assert.assertEquals(uploadedFileName, "test.txt", 
 					"Uploaded file name does not match!");
 
-		} catch (Exception e) {
-
-			Assert.fail("Test failed due to an exception: " + e.getMessage());
-		}
 		logger.info("***** Ending verify_FileUpload *****");
 	}
 }
