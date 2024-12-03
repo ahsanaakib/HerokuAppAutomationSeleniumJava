@@ -21,6 +21,7 @@ This repository contains automated test cases for verifying various functionalit
 | TC009            | VerifyDragAndDrop                          | Validates the drag-and-drop functionality with different scenarios.  |  
 | TC010            | VerifyJavaScriptAlerts                     | Ensures JavaScript alert messages are displayed and handled correctly.|  
 | TC011            | VerifyKeyPresses                           | Tests handling of various keyboard input events.                     |  
+| TC012            | VerifyInputsFunctionality                  | Verifies the functionality of input fields for numerical inputs.     |  
 
 ---
 
