@@ -22,6 +22,7 @@ This repository contains automated test cases for verifying various functionalit
 | TC010            | VerifyJavaScriptAlerts                     | Ensures JavaScript alert messages are displayed and handled correctly.|  
 | TC011            | VerifyKeyPresses                           | Tests handling of various keyboard input events.                     |  
 | TC012            | VerifyInputsFunctionality                  | Verifies the functionality of input fields for numerical inputs.     |  
+| TC013            | VerifyShiftingContent                      | Validates the behavior of content shifting on the page.              |  
 
 ---
 
