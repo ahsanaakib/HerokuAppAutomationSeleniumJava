@@ -48,6 +48,10 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//a[normalize-space()='Inputs']")
 	WebElement linkInputs;
 
+	@FindBy(xpath = "//a[normalize-space()='Shifting Content']")
+	WebElement linkShiftingContent;
+	
+	
 	// ***** Actions *****
 
 	public void clickDragAndDrop() {
@@ -96,5 +100,9 @@ public class HomePage extends BasePage {
 
 	public void clickInputs() {
 		linkInputs.click();
+	}
+	
+	public void clickShiftingContent() {
+		linkShiftingContent.click();
 	}
 }

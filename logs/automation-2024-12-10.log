@@ -1,0 +1,49 @@
+16:32:14.017 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\HerokuAppAutomationSeleniumJava\master.xml"
+16:32:14.508 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\HerokuAppAutomationSeleniumJava\master.xml
+
+16:32:20.460 [main] INFO  testCases.TC001_VerifyBasicAuthFunctionality - ***** Starting verify_BasicAuthFunctionality *****
+16:32:21.216 [main] INFO  testCases.TC001_VerifyBasicAuthFunctionality - ***** Ending verify_BasicAuthFunctionality *****
+16:32:26.697 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Starting verify_ValidLogin *****
+16:32:29.719 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Ending verify_ValidLogin *****
+16:32:29.723 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Starting verify_InvalidLogin *****
+16:32:30.717 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Ending verify_InvalidLogin *****
+16:32:30.722 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Starting verify_BlankFieldsLogin *****
+16:32:31.672 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Ending verify_BlankFieldsLogin *****
+16:32:36.760 [main] INFO  testCases.TC003_VerifyDisappearingElements - ***** Starting verify_DisappearingElements *****
+16:32:44.120 [main] INFO  testCases.TC004_VerifyFileUpload - ***** Starting verify_FileUpload *****
+16:32:45.328 [main] INFO  testCases.TC004_VerifyFileUpload - ***** Ending verify_FileUpload *****
+16:32:50.682 [main] INFO  testCases.TC005_VerifyDropdownListFunctionality - ***** Starting verify_DropdownList *****
+16:32:51.635 [main] INFO  testCases.TC005_VerifyDropdownListFunctionality - ***** Ending verify_DropdownList *****
+16:32:57.543 [main] INFO  testCases.TC006_VerifyAddRemoveElements - ***** Starting verify_AddRemoveElements *****
+16:33:18.785 [main] INFO  testCases.TC006_VerifyAddRemoveElements - ***** Ending verify_AddRemoveElements *****
+16:33:23.435 [main] INFO  testCases.TC007_VerifyFloatingMenuFunctionality - ***** Starting verify_FloatingMenuFunctionality *****
+16:33:24.202 [main] INFO  testCases.TC007_VerifyFloatingMenuFunctionality - ***** Ending verify_FloatingMenuFunctionality *****
+16:33:29.175 [main] INFO  testCases.TC008_VerifyHoversActions - ***** Starting verify_HoversActions *****
+16:33:30.626 [main] INFO  testCases.TC008_VerifyHoversActions - ***** Ending verify_HoversActions *****
+16:33:35.625 [main] INFO  testCases.TC009_VerifyDragAndDrop - ***** Starting verify_DragAndDrop *****
+16:33:36.429 [main] INFO  testCases.TC009_VerifyDragAndDrop - ***** Ending verify_DragAndDrop *****
+16:33:41.907 [main] INFO  testCases.TC010_VerifyJavaScriptAlerts - ***** Starting verify_JsAlert *****
+16:33:42.542 [main] INFO  testCases.TC010_VerifyJavaScriptAlerts - ***** Ending verify_JsAlert *****
+16:33:42.548 [main] INFO  testCases.TC010_VerifyJavaScriptAlerts - ***** Starting verify_JsConfirmAccept *****
+16:33:42.641 [main] INFO  testCases.TC010_VerifyJavaScriptAlerts - ***** Ending verify_JsConfirmAccept *****
+16:33:42.648 [main] INFO  testCases.TC010_VerifyJavaScriptAlerts - ***** Starting verify_JsConfirmDismiss *****
+16:33:42.728 [main] INFO  testCases.TC010_VerifyJavaScriptAlerts - ***** Ending verify_JsConfirmDismiss *****
+16:33:42.731 [main] INFO  testCases.TC010_VerifyJavaScriptAlerts - ***** Starting verify_JsPrompt *****
+16:33:42.842 [main] INFO  testCases.TC010_VerifyJavaScriptAlerts - ***** Ending verify_JsPrompt *****
+16:33:48.988 [main] INFO  testCases.TC011_VerifyKeyPresses - ***** Starting verify_KeyPresses *****
+16:33:50.024 [main] INFO  testCases.TC011_VerifyKeyPresses - ***** Ending verify_KeyPresses *****
+16:33:55.482 [main] INFO  testCases.TC012_VerifyInputsFunctionality - ***** Starting verifyNumericInput *****
+16:33:56.798 [main] INFO  testCases.TC012_VerifyInputsFunctionality - ***** Ending verifyNumericInput *****
+16:34:01.931 [main] INFO  testCases.TC013_VerifyShiftingContent - ***** Starting verifyImageDoesNotShift *****
+16:42:36.954 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\HerokuAppAutomationSeleniumJava\grouping.xml"
+16:42:37.559 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\HerokuAppAutomationSeleniumJava\grouping.xml
+
+16:42:43.369 [main] INFO  testCases.TC001_VerifyBasicAuthFunctionality - ***** Starting verify_BasicAuthFunctionality *****
+16:42:44.202 [main] INFO  testCases.TC001_VerifyBasicAuthFunctionality - ***** Ending verify_BasicAuthFunctionality *****
+16:42:49.685 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Starting verify_ValidLogin *****
+16:42:52.498 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Ending verify_ValidLogin *****
+16:42:52.504 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Starting verify_InvalidLogin *****
+16:42:53.479 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Ending verify_InvalidLogin *****
+16:42:53.482 [main] INFO  testCases.TC002_VerifyFormAuthentication - ***** Starting verify_BlankFieldsLogin *****

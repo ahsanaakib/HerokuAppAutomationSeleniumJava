@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 03 15:42:11 BDT 2024</td>
+<td>Started on:</td><td>Tue Dec 10 16:32:14 BDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>105 seconds (105243 ms)</td>
+<tr><td>Total time:</td><td>109 seconds (109255 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,54 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testCases.TC013_VerifyShiftingContent.verifyImageDoesNotShift()'><b>verifyImageDoesNotShift</b><br>Test class: testCases.TC013_VerifyShiftingContent</td>
+<td><div><pre>java.lang.AssertionError: Image position has shifted! expected [false] but found [true]
+	at testCases.TC013_VerifyShiftingContent.verifyImageDoesNotShift(TC013_VerifyShiftingContent.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace298295476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace298295476'><pre>java.lang.AssertionError: Image position has shifted! expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at testCases.TC013_VerifyShiftingContent.verifyImageDoesNotShift(TC013_VerifyShiftingContent.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>testCases.TC013_VerifyShiftingContent@73db4768</td></tr>
+<tr>
 <td title='testCases.TC003_VerifyDisappearingElements.verify_DisappearingElements()'><b>verify_DisappearingElements</b><br>Test class: testCases.TC003_VerifyDisappearingElements</td>
-<td><div><pre>java.lang.AssertionError: Menu items mismatch after reload #2: lists don&apos;t have the same size expected [4] but found [5]
+<td><div><pre>java.lang.AssertionError: Menu items mismatch after reload #3: lists don&apos;t have the same size expected [5] but found [4]
 	at testCases.TC003_VerifyDisappearingElements.verify_DisappearingElements(TC003_VerifyDisappearingElements.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace395257482", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace395257482'><pre>java.lang.AssertionError: Menu items mismatch after reload #2: lists don&apos;t have the same size expected [4] but found [5]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace224473864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace224473864'><pre>java.lang.AssertionError: Menu items mismatch after reload #3: lists don&apos;t have the same size expected [5] but found [4]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -120,7 +162,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>1</td>
-<td>testCases.TC003_VerifyDisappearingElements@5b7ea70d</td></tr>
+<td>testCases.TC003_VerifyDisappearingElements@2bef51f2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -131,85 +173,85 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC010_VerifyJavaScriptAlerts.verify_JsConfirmDismiss()'><b>verify_JsConfirmDismiss</b><br>Test class: testCases.TC010_VerifyJavaScriptAlerts</td>
+<td title='testCases.TC007_VerifyFloatingMenuFunctionality.verify_FloatingMenuFunctionality()'><b>verify_FloatingMenuFunctionality</b><br>Test class: testCases.TC007_VerifyFloatingMenuFunctionality</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC010_VerifyJavaScriptAlerts@53f48368</td></tr>
+<td>testCases.TC007_VerifyFloatingMenuFunctionality@4f2c9ba6</td></tr>
 <tr>
 <td title='testCases.TC012_VerifyInputsFunctionality.verifyNumericInput()'><b>verifyNumericInput</b><br>Test class: testCases.TC012_VerifyInputsFunctionality</td>
 <td></td>
 <td>1</td>
-<td>testCases.TC012_VerifyInputsFunctionality@f0e995e</td></tr>
+<td>testCases.TC012_VerifyInputsFunctionality@4c37b5b</td></tr>
 <tr>
 <td title='testCases.TC002_VerifyFormAuthentication.verify_InvalidLogin()'><b>verify_InvalidLogin</b><br>Test class: testCases.TC002_VerifyFormAuthentication</td>
 <td></td>
-<td>1</td>
-<td>testCases.TC002_VerifyFormAuthentication@652a7737</td></tr>
+<td>0</td>
+<td>testCases.TC002_VerifyFormAuthentication@5b7ea70d</td></tr>
 <tr>
-<td title='testCases.TC010_VerifyJavaScriptAlerts.verify_JsConfirmAccept()'><b>verify_JsConfirmAccept</b><br>Test class: testCases.TC010_VerifyJavaScriptAlerts</td>
+<td title='testCases.TC010_VerifyJavaScriptAlerts.verify_JsConfirmDismiss()'><b>verify_JsConfirmDismiss</b><br>Test class: testCases.TC010_VerifyJavaScriptAlerts</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC010_VerifyJavaScriptAlerts@53f48368</td></tr>
-<tr>
-<td title='testCases.TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()'><b>verify_BasicAuthFunctionality</b><br>Test class: testCases.TC001_VerifyBasicAuthFunctionality</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC001_VerifyBasicAuthFunctionality@14f5da2c</td></tr>
-<tr>
-<td title='testCases.TC005_VerifyDropdownListFunctionality.verify_DropdownList()'><b>verify_DropdownList</b><br>Test class: testCases.TC005_VerifyDropdownListFunctionality</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC005_VerifyDropdownListFunctionality@650eab8</td></tr>
-<tr>
-<td title='testCases.TC007_VerifyFloatingMenuFunctionality.verify_FloatingMenuFunctionality()'><b>verify_FloatingMenuFunctionality</b><br>Test class: testCases.TC007_VerifyFloatingMenuFunctionality</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC007_VerifyFloatingMenuFunctionality@1e1d3956</td></tr>
-<tr>
-<td title='testCases.TC010_VerifyJavaScriptAlerts.verify_JsPrompt()'><b>verify_JsPrompt</b><br>Test class: testCases.TC010_VerifyJavaScriptAlerts</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC010_VerifyJavaScriptAlerts@53f48368</td></tr>
-<tr>
-<td title='testCases.TC002_VerifyFormAuthentication.verify_ValidLogin()'><b>verify_ValidLogin</b><br>Test class: testCases.TC002_VerifyFormAuthentication</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC002_VerifyFormAuthentication@652a7737</td></tr>
-<tr>
-<td title='testCases.TC008_VerifyHoversActions.verify_HoversActions()'><b>verify_HoversActions</b><br>Test class: testCases.TC008_VerifyHoversActions</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC008_VerifyHoversActions@4f2c9ba6</td></tr>
+<td>testCases.TC010_VerifyJavaScriptAlerts@24d4d7c9</td></tr>
 <tr>
 <td title='testCases.TC011_VerifyKeyPresses.verify_KeyPresses()'><b>verify_KeyPresses</b><br>Test class: testCases.TC011_VerifyKeyPresses</td>
 <td></td>
 <td>1</td>
-<td>testCases.TC011_VerifyKeyPresses@24d4d7c9</td></tr>
-<tr>
-<td title='testCases.TC006_VerifyAddRemoveElements.verify_AddRemoveElements()'><b>verify_AddRemoveElements</b><br>Test class: testCases.TC006_VerifyAddRemoveElements</td>
-<td></td>
-<td>21</td>
-<td>testCases.TC006_VerifyAddRemoveElements@30f5a68a</td></tr>
-<tr>
-<td title='testCases.TC009_VerifyDragAndDrop.verify_DragAndDrop()'><b>verify_DragAndDrop</b><br>Test class: testCases.TC009_VerifyDragAndDrop</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC009_VerifyDragAndDrop@4e28bdd1</td></tr>
-<tr>
-<td title='testCases.TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()'><b>verify_BlankFieldsLogin</b><br>Test class: testCases.TC002_VerifyFormAuthentication</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC002_VerifyFormAuthentication@652a7737</td></tr>
-<tr>
-<td title='testCases.TC010_VerifyJavaScriptAlerts.verify_JsAlert()'><b>verify_JsAlert</b><br>Test class: testCases.TC010_VerifyJavaScriptAlerts</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC010_VerifyJavaScriptAlerts@53f48368</td></tr>
+<td>testCases.TC011_VerifyKeyPresses@f0e995e</td></tr>
 <tr>
 <td title='testCases.TC004_VerifyFileUpload.verify_FileUpload()'><b>verify_FileUpload</b><br>Test class: testCases.TC004_VerifyFileUpload</td>
 <td></td>
 <td>1</td>
-<td>testCases.TC004_VerifyFileUpload@2bef51f2</td></tr>
+<td>testCases.TC004_VerifyFileUpload@650eab8</td></tr>
+<tr>
+<td title='testCases.TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()'><b>verify_BlankFieldsLogin</b><br>Test class: testCases.TC002_VerifyFormAuthentication</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC002_VerifyFormAuthentication@5b7ea70d</td></tr>
+<tr>
+<td title='testCases.TC005_VerifyDropdownListFunctionality.verify_DropdownList()'><b>verify_DropdownList</b><br>Test class: testCases.TC005_VerifyDropdownListFunctionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC005_VerifyDropdownListFunctionality@30f5a68a</td></tr>
+<tr>
+<td title='testCases.TC009_VerifyDragAndDrop.verify_DragAndDrop()'><b>verify_DragAndDrop</b><br>Test class: testCases.TC009_VerifyDragAndDrop</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC009_VerifyDragAndDrop@53f48368</td></tr>
+<tr>
+<td title='testCases.TC010_VerifyJavaScriptAlerts.verify_JsConfirmAccept()'><b>verify_JsConfirmAccept</b><br>Test class: testCases.TC010_VerifyJavaScriptAlerts</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC010_VerifyJavaScriptAlerts@24d4d7c9</td></tr>
+<tr>
+<td title='testCases.TC010_VerifyJavaScriptAlerts.verify_JsAlert()'><b>verify_JsAlert</b><br>Test class: testCases.TC010_VerifyJavaScriptAlerts</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC010_VerifyJavaScriptAlerts@24d4d7c9</td></tr>
+<tr>
+<td title='testCases.TC010_VerifyJavaScriptAlerts.verify_JsPrompt()'><b>verify_JsPrompt</b><br>Test class: testCases.TC010_VerifyJavaScriptAlerts</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC010_VerifyJavaScriptAlerts@24d4d7c9</td></tr>
+<tr>
+<td title='testCases.TC002_VerifyFormAuthentication.verify_ValidLogin()'><b>verify_ValidLogin</b><br>Test class: testCases.TC002_VerifyFormAuthentication</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC002_VerifyFormAuthentication@5b7ea70d</td></tr>
+<tr>
+<td title='testCases.TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()'><b>verify_BasicAuthFunctionality</b><br>Test class: testCases.TC001_VerifyBasicAuthFunctionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC001_VerifyBasicAuthFunctionality@12dae582</td></tr>
+<tr>
+<td title='testCases.TC006_VerifyAddRemoveElements.verify_AddRemoveElements()'><b>verify_AddRemoveElements</b><br>Test class: testCases.TC006_VerifyAddRemoveElements</td>
+<td></td>
+<td>21</td>
+<td>testCases.TC006_VerifyAddRemoveElements@1e1d3956</td></tr>
+<tr>
+<td title='testCases.TC008_VerifyHoversActions.verify_HoversActions()'><b>verify_HoversActions</b><br>Test class: testCases.TC008_VerifyHoversActions</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC008_VerifyHoversActions@4e28bdd1</td></tr>
 </table><p>
 </body>
 </html>

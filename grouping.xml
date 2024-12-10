@@ -36,6 +36,7 @@
 			<class name="testCases.TC010_VerifyJavaScriptAlerts" />
 			<class name="testCases.TC011_VerifyKeyPresses" />
 			<class name="testCases.TC012_VerifyInputsFunctionality" />
+			<class name="testCases.TC013_VerifyShiftingContent" />
 			
 		</classes>
 	</test> <!--

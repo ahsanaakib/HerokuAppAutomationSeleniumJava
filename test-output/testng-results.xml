@@ -1,67 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+<testng-results ignored="0" total="18" passed="16" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-03T15:42:11 BDT" name="Master Suite" finished-at="2024-12-03T15:43:57 BDT" duration-ms="105243">
+  <suite started-at="2024-12-10T16:42:37 BDT" name="Grouping Suite" finished-at="2024-12-10T16:44:28 BDT" duration-ms="110551">
     <groups>
       <group name="Master">
-        <method signature="TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@14f5da2c]" name="verify_BasicAuthFunctionality" class="testCases.TC001_VerifyBasicAuthFunctionality"/>
-        <method signature="TC003_VerifyDisappearingElements.verify_DisappearingElements()[pri:0, instance:testCases.TC003_VerifyDisappearingElements@5b7ea70d]" name="verify_DisappearingElements" class="testCases.TC003_VerifyDisappearingElements"/>
-        <method signature="TC004_VerifyFileUpload.verify_FileUpload()[pri:0, instance:testCases.TC004_VerifyFileUpload@2bef51f2]" name="verify_FileUpload" class="testCases.TC004_VerifyFileUpload"/>
-        <method signature="TC005_VerifyDropdownListFunctionality.verify_DropdownList()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@650eab8]" name="verify_DropdownList" class="testCases.TC005_VerifyDropdownListFunctionality"/>
-        <method signature="TC006_VerifyAddRemoveElements.verify_AddRemoveElements()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@30f5a68a]" name="verify_AddRemoveElements" class="testCases.TC006_VerifyAddRemoveElements"/>
-        <method signature="TC007_VerifyFloatingMenuFunctionality.verify_FloatingMenuFunctionality()[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@1e1d3956]" name="verify_FloatingMenuFunctionality" class="testCases.TC007_VerifyFloatingMenuFunctionality"/>
-        <method signature="TC008_VerifyHoversActions.verify_HoversActions()[pri:0, instance:testCases.TC008_VerifyHoversActions@4f2c9ba6]" name="verify_HoversActions" class="testCases.TC008_VerifyHoversActions"/>
-        <method signature="TC009_VerifyDragAndDrop.verify_DragAndDrop()[pri:0, instance:testCases.TC009_VerifyDragAndDrop@4e28bdd1]" name="verify_DragAndDrop" class="testCases.TC009_VerifyDragAndDrop"/>
-        <method signature="TC011_VerifyKeyPresses.verify_KeyPresses()[pri:0, instance:testCases.TC011_VerifyKeyPresses@24d4d7c9]" name="verify_KeyPresses" class="testCases.TC011_VerifyKeyPresses"/>
-        <method signature="TC012_VerifyInputsFunctionality.verifyNumericInput()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@f0e995e]" name="verifyNumericInput" class="testCases.TC012_VerifyInputsFunctionality"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_ValidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsAlert()[pri:1, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" name="verify_JsAlert" class="testCases.TC010_VerifyJavaScriptAlerts"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_InvalidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsConfirmAccept()[pri:2, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" name="verify_JsConfirmAccept" class="testCases.TC010_VerifyJavaScriptAlerts"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_BlankFieldsLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsConfirmDismiss()[pri:3, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" name="verify_JsConfirmDismiss" class="testCases.TC010_VerifyJavaScriptAlerts"/>
-        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsPrompt()[pri:4, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" name="verify_JsPrompt" class="testCases.TC010_VerifyJavaScriptAlerts"/>
+        <method signature="TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@24d4d7c9]" name="verify_BasicAuthFunctionality" class="testCases.TC001_VerifyBasicAuthFunctionality"/>
+        <method signature="TC003_VerifyDisappearingElements.verify_DisappearingElements()[pri:0, instance:testCases.TC003_VerifyDisappearingElements@3c435123]" name="verify_DisappearingElements" class="testCases.TC003_VerifyDisappearingElements"/>
+        <method signature="TC004_VerifyFileUpload.verify_FileUpload()[pri:0, instance:testCases.TC004_VerifyFileUpload@50fe837a]" name="verify_FileUpload" class="testCases.TC004_VerifyFileUpload"/>
+        <method signature="TC005_VerifyDropdownListFunctionality.verify_DropdownList()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@3a62c01e]" name="verify_DropdownList" class="testCases.TC005_VerifyDropdownListFunctionality"/>
+        <method signature="TC006_VerifyAddRemoveElements.verify_AddRemoveElements()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@7a8fa663]" name="verify_AddRemoveElements" class="testCases.TC006_VerifyAddRemoveElements"/>
+        <method signature="TC007_VerifyFloatingMenuFunctionality.verify_FloatingMenuFunctionality()[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@5ce33a58]" name="verify_FloatingMenuFunctionality" class="testCases.TC007_VerifyFloatingMenuFunctionality"/>
+        <method signature="TC008_VerifyHoversActions.verify_HoversActions()[pri:0, instance:testCases.TC008_VerifyHoversActions@78a287ed]" name="verify_HoversActions" class="testCases.TC008_VerifyHoversActions"/>
+        <method signature="TC009_VerifyDragAndDrop.verify_DragAndDrop()[pri:0, instance:testCases.TC009_VerifyDragAndDrop@546ccad7]" name="verify_DragAndDrop" class="testCases.TC009_VerifyDragAndDrop"/>
+        <method signature="TC011_VerifyKeyPresses.verify_KeyPresses()[pri:0, instance:testCases.TC011_VerifyKeyPresses@1623134f]" name="verify_KeyPresses" class="testCases.TC011_VerifyKeyPresses"/>
+        <method signature="TC012_VerifyInputsFunctionality.verifyNumericInput()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@7a527389]" name="verifyNumericInput" class="testCases.TC012_VerifyInputsFunctionality"/>
+        <method signature="TC013_VerifyShiftingContent.verifyImageDoesNotShift()[pri:0, instance:testCases.TC013_VerifyShiftingContent@485a3466]" name="verifyImageDoesNotShift" class="testCases.TC013_VerifyShiftingContent"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_ValidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsAlert()[pri:1, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" name="verify_JsAlert" class="testCases.TC010_VerifyJavaScriptAlerts"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_InvalidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsConfirmAccept()[pri:2, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" name="verify_JsConfirmAccept" class="testCases.TC010_VerifyJavaScriptAlerts"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_BlankFieldsLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsConfirmDismiss()[pri:3, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" name="verify_JsConfirmDismiss" class="testCases.TC010_VerifyJavaScriptAlerts"/>
+        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsPrompt()[pri:4, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" name="verify_JsPrompt" class="testCases.TC010_VerifyJavaScriptAlerts"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@14f5da2c]" name="verify_BasicAuthFunctionality" class="testCases.TC001_VerifyBasicAuthFunctionality"/>
-        <method signature="TC005_VerifyDropdownListFunctionality.verify_DropdownList()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@650eab8]" name="verify_DropdownList" class="testCases.TC005_VerifyDropdownListFunctionality"/>
-        <method signature="TC006_VerifyAddRemoveElements.verify_AddRemoveElements()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@30f5a68a]" name="verify_AddRemoveElements" class="testCases.TC006_VerifyAddRemoveElements"/>
-        <method signature="TC012_VerifyInputsFunctionality.verifyNumericInput()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@f0e995e]" name="verifyNumericInput" class="testCases.TC012_VerifyInputsFunctionality"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_ValidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_InvalidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_BlankFieldsLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@24d4d7c9]" name="verify_BasicAuthFunctionality" class="testCases.TC001_VerifyBasicAuthFunctionality"/>
+        <method signature="TC005_VerifyDropdownListFunctionality.verify_DropdownList()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@3a62c01e]" name="verify_DropdownList" class="testCases.TC005_VerifyDropdownListFunctionality"/>
+        <method signature="TC006_VerifyAddRemoveElements.verify_AddRemoveElements()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@7a8fa663]" name="verify_AddRemoveElements" class="testCases.TC006_VerifyAddRemoveElements"/>
+        <method signature="TC012_VerifyInputsFunctionality.verifyNumericInput()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@7a527389]" name="verifyNumericInput" class="testCases.TC012_VerifyInputsFunctionality"/>
+        <method signature="TC013_VerifyShiftingContent.verifyImageDoesNotShift()[pri:0, instance:testCases.TC013_VerifyShiftingContent@485a3466]" name="verifyImageDoesNotShift" class="testCases.TC013_VerifyShiftingContent"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_ValidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_InvalidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_BlankFieldsLogin" class="testCases.TC002_VerifyFormAuthentication"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@14f5da2c]" name="verify_BasicAuthFunctionality" class="testCases.TC001_VerifyBasicAuthFunctionality"/>
-        <method signature="TC003_VerifyDisappearingElements.verify_DisappearingElements()[pri:0, instance:testCases.TC003_VerifyDisappearingElements@5b7ea70d]" name="verify_DisappearingElements" class="testCases.TC003_VerifyDisappearingElements"/>
-        <method signature="TC004_VerifyFileUpload.verify_FileUpload()[pri:0, instance:testCases.TC004_VerifyFileUpload@2bef51f2]" name="verify_FileUpload" class="testCases.TC004_VerifyFileUpload"/>
-        <method signature="TC005_VerifyDropdownListFunctionality.verify_DropdownList()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@650eab8]" name="verify_DropdownList" class="testCases.TC005_VerifyDropdownListFunctionality"/>
-        <method signature="TC006_VerifyAddRemoveElements.verify_AddRemoveElements()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@30f5a68a]" name="verify_AddRemoveElements" class="testCases.TC006_VerifyAddRemoveElements"/>
-        <method signature="TC007_VerifyFloatingMenuFunctionality.verify_FloatingMenuFunctionality()[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@1e1d3956]" name="verify_FloatingMenuFunctionality" class="testCases.TC007_VerifyFloatingMenuFunctionality"/>
-        <method signature="TC008_VerifyHoversActions.verify_HoversActions()[pri:0, instance:testCases.TC008_VerifyHoversActions@4f2c9ba6]" name="verify_HoversActions" class="testCases.TC008_VerifyHoversActions"/>
-        <method signature="TC009_VerifyDragAndDrop.verify_DragAndDrop()[pri:0, instance:testCases.TC009_VerifyDragAndDrop@4e28bdd1]" name="verify_DragAndDrop" class="testCases.TC009_VerifyDragAndDrop"/>
-        <method signature="TC011_VerifyKeyPresses.verify_KeyPresses()[pri:0, instance:testCases.TC011_VerifyKeyPresses@24d4d7c9]" name="verify_KeyPresses" class="testCases.TC011_VerifyKeyPresses"/>
-        <method signature="TC012_VerifyInputsFunctionality.verifyNumericInput()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@f0e995e]" name="verifyNumericInput" class="testCases.TC012_VerifyInputsFunctionality"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_ValidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsAlert()[pri:1, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" name="verify_JsAlert" class="testCases.TC010_VerifyJavaScriptAlerts"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_InvalidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsConfirmAccept()[pri:2, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" name="verify_JsConfirmAccept" class="testCases.TC010_VerifyJavaScriptAlerts"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_BlankFieldsLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsConfirmDismiss()[pri:3, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" name="verify_JsConfirmDismiss" class="testCases.TC010_VerifyJavaScriptAlerts"/>
-        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsPrompt()[pri:4, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" name="verify_JsPrompt" class="testCases.TC010_VerifyJavaScriptAlerts"/>
+        <method signature="TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@24d4d7c9]" name="verify_BasicAuthFunctionality" class="testCases.TC001_VerifyBasicAuthFunctionality"/>
+        <method signature="TC003_VerifyDisappearingElements.verify_DisappearingElements()[pri:0, instance:testCases.TC003_VerifyDisappearingElements@3c435123]" name="verify_DisappearingElements" class="testCases.TC003_VerifyDisappearingElements"/>
+        <method signature="TC004_VerifyFileUpload.verify_FileUpload()[pri:0, instance:testCases.TC004_VerifyFileUpload@50fe837a]" name="verify_FileUpload" class="testCases.TC004_VerifyFileUpload"/>
+        <method signature="TC005_VerifyDropdownListFunctionality.verify_DropdownList()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@3a62c01e]" name="verify_DropdownList" class="testCases.TC005_VerifyDropdownListFunctionality"/>
+        <method signature="TC006_VerifyAddRemoveElements.verify_AddRemoveElements()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@7a8fa663]" name="verify_AddRemoveElements" class="testCases.TC006_VerifyAddRemoveElements"/>
+        <method signature="TC007_VerifyFloatingMenuFunctionality.verify_FloatingMenuFunctionality()[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@5ce33a58]" name="verify_FloatingMenuFunctionality" class="testCases.TC007_VerifyFloatingMenuFunctionality"/>
+        <method signature="TC008_VerifyHoversActions.verify_HoversActions()[pri:0, instance:testCases.TC008_VerifyHoversActions@78a287ed]" name="verify_HoversActions" class="testCases.TC008_VerifyHoversActions"/>
+        <method signature="TC009_VerifyDragAndDrop.verify_DragAndDrop()[pri:0, instance:testCases.TC009_VerifyDragAndDrop@546ccad7]" name="verify_DragAndDrop" class="testCases.TC009_VerifyDragAndDrop"/>
+        <method signature="TC011_VerifyKeyPresses.verify_KeyPresses()[pri:0, instance:testCases.TC011_VerifyKeyPresses@1623134f]" name="verify_KeyPresses" class="testCases.TC011_VerifyKeyPresses"/>
+        <method signature="TC012_VerifyInputsFunctionality.verifyNumericInput()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@7a527389]" name="verifyNumericInput" class="testCases.TC012_VerifyInputsFunctionality"/>
+        <method signature="TC013_VerifyShiftingContent.verifyImageDoesNotShift()[pri:0, instance:testCases.TC013_VerifyShiftingContent@485a3466]" name="verifyImageDoesNotShift" class="testCases.TC013_VerifyShiftingContent"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_ValidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsAlert()[pri:1, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" name="verify_JsAlert" class="testCases.TC010_VerifyJavaScriptAlerts"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_InvalidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsConfirmAccept()[pri:2, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" name="verify_JsConfirmAccept" class="testCases.TC010_VerifyJavaScriptAlerts"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_BlankFieldsLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsConfirmDismiss()[pri:3, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" name="verify_JsConfirmDismiss" class="testCases.TC010_VerifyJavaScriptAlerts"/>
+        <method signature="TC010_VerifyJavaScriptAlerts.verify_JsPrompt()[pri:4, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" name="verify_JsPrompt" class="testCases.TC010_VerifyJavaScriptAlerts"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@14f5da2c]" name="verify_BasicAuthFunctionality" class="testCases.TC001_VerifyBasicAuthFunctionality"/>
-        <method signature="TC004_VerifyFileUpload.verify_FileUpload()[pri:0, instance:testCases.TC004_VerifyFileUpload@2bef51f2]" name="verify_FileUpload" class="testCases.TC004_VerifyFileUpload"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_ValidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_InvalidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
-        <method signature="TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" name="verify_BlankFieldsLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC001_VerifyBasicAuthFunctionality.verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@24d4d7c9]" name="verify_BasicAuthFunctionality" class="testCases.TC001_VerifyBasicAuthFunctionality"/>
+        <method signature="TC004_VerifyFileUpload.verify_FileUpload()[pri:0, instance:testCases.TC004_VerifyFileUpload@50fe837a]" name="verify_FileUpload" class="testCases.TC004_VerifyFileUpload"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_ValidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_InvalidLogin" class="testCases.TC002_VerifyFormAuthentication"/>
+        <method signature="TC002_VerifyFormAuthentication.verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" name="verify_BlankFieldsLogin" class="testCases.TC002_VerifyFormAuthentication"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-12-03T15:42:11 BDT" name="Test" finished-at="2024-12-03T15:43:57 BDT" duration-ms="105243">
+    <test started-at="2024-12-10T16:42:37 BDT" name="Test" finished-at="2024-12-10T16:44:28 BDT" duration-ms="110551">
       <class name="testCases.TC008_VerifyHoversActions">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_VerifyHoversActions@4f2c9ba6]" started-at="2024-12-03T15:43:22 BDT" name="setup" finished-at="2024-12-03T15:43:27 BDT" duration-ms="4745" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_VerifyHoversActions@78a287ed]" started-at="2024-12-10T16:43:47 BDT" name="setup" finished-at="2024-12-10T16:43:52 BDT" duration-ms="5351" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,17 +80,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_HoversActions()[pri:0, instance:testCases.TC008_VerifyHoversActions@4f2c9ba6]" started-at="2024-12-03T15:43:27 BDT" name="verify_HoversActions" finished-at="2024-12-03T15:43:28 BDT" duration-ms="1484" status="PASS">
+        <test-method signature="verify_HoversActions()[pri:0, instance:testCases.TC008_VerifyHoversActions@78a287ed]" started-at="2024-12-10T16:43:52 BDT" name="verify_HoversActions" finished-at="2024-12-10T16:43:54 BDT" duration-ms="1452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_HoversActions -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_VerifyHoversActions@4f2c9ba6]" started-at="2024-12-03T15:43:28 BDT" name="tearDown" finished-at="2024-12-03T15:43:28 BDT" duration-ms="161" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_VerifyHoversActions@78a287ed]" started-at="2024-12-10T16:43:54 BDT" name="tearDown" finished-at="2024-12-10T16:43:54 BDT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC008_VerifyHoversActions -->
-      <class name="testCases.TC007_VerifyFloatingMenuFunctionality">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@1e1d3956]" started-at="2024-12-03T15:43:15 BDT" name="setup" finished-at="2024-12-03T15:43:21 BDT" duration-ms="5448" status="PASS">
+      <class name="testCases.TC012_VerifyInputsFunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@7a527389]" started-at="2024-12-10T16:44:13 BDT" name="setup" finished-at="2024-12-10T16:44:19 BDT" duration-ms="5215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,17 +106,95 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_FloatingMenuFunctionality()[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@1e1d3956]" started-at="2024-12-03T15:43:21 BDT" name="verify_FloatingMenuFunctionality" finished-at="2024-12-03T15:43:22 BDT" duration-ms="884" status="PASS">
+        <test-method signature="verifyNumericInput()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@7a527389]" started-at="2024-12-10T16:44:19 BDT" name="verifyNumericInput" finished-at="2024-12-10T16:44:20 BDT" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNumericInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@7a527389]" started-at="2024-12-10T16:44:20 BDT" name="tearDown" finished-at="2024-12-10T16:44:20 BDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC012_VerifyInputsFunctionality -->
+      <class name="testCases.TC004_VerifyFileUpload">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_VerifyFileUpload@50fe837a]" started-at="2024-12-10T16:43:00 BDT" name="setup" finished-at="2024-12-10T16:43:05 BDT" duration-ms="4869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_FileUpload()[pri:0, instance:testCases.TC004_VerifyFileUpload@50fe837a]" started-at="2024-12-10T16:43:05 BDT" name="verify_FileUpload" finished-at="2024-12-10T16:43:07 BDT" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_FileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_VerifyFileUpload@50fe837a]" started-at="2024-12-10T16:43:07 BDT" name="tearDown" finished-at="2024-12-10T16:43:07 BDT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_VerifyFileUpload -->
+      <class name="testCases.TC011_VerifyKeyPresses">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_VerifyKeyPresses@1623134f]" started-at="2024-12-10T16:44:07 BDT" name="setup" finished-at="2024-12-10T16:44:12 BDT" duration-ms="5389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_KeyPresses()[pri:0, instance:testCases.TC011_VerifyKeyPresses@1623134f]" started-at="2024-12-10T16:44:12 BDT" name="verify_KeyPresses" finished-at="2024-12-10T16:44:13 BDT" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_KeyPresses -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC011_VerifyKeyPresses@1623134f]" started-at="2024-12-10T16:44:13 BDT" name="tearDown" finished-at="2024-12-10T16:44:13 BDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC011_VerifyKeyPresses -->
+      <class name="testCases.TC007_VerifyFloatingMenuFunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@5ce33a58]" started-at="2024-12-10T16:43:40 BDT" name="setup" finished-at="2024-12-10T16:43:46 BDT" duration-ms="5661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_FloatingMenuFunctionality()[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@5ce33a58]" started-at="2024-12-10T16:43:46 BDT" name="verify_FloatingMenuFunctionality" finished-at="2024-12-10T16:43:47 BDT" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_FloatingMenuFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@1e1d3956]" started-at="2024-12-03T15:43:22 BDT" name="tearDown" finished-at="2024-12-03T15:43:22 BDT" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_VerifyFloatingMenuFunctionality@5ce33a58]" started-at="2024-12-10T16:43:47 BDT" name="tearDown" finished-at="2024-12-10T16:43:47 BDT" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC007_VerifyFloatingMenuFunctionality -->
       <class name="testCases.TC002_VerifyFormAuthentication">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" started-at="2024-12-03T15:42:19 BDT" name="setup" finished-at="2024-12-03T15:42:24 BDT" duration-ms="5422" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" started-at="2024-12-10T16:42:44 BDT" name="setup" finished-at="2024-12-10T16:42:49 BDT" duration-ms="5291" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,51 +210,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" started-at="2024-12-03T15:42:24 BDT" name="verify_ValidLogin" finished-at="2024-12-03T15:42:27 BDT" duration-ms="2710" status="PASS">
+        <test-method signature="verify_ValidLogin()[pri:1, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" started-at="2024-12-10T16:42:49 BDT" name="verify_ValidLogin" finished-at="2024-12-10T16:42:52 BDT" duration-ms="2821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_ValidLogin -->
-        <test-method signature="verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" started-at="2024-12-03T15:42:27 BDT" name="verify_InvalidLogin" finished-at="2024-12-03T15:42:28 BDT" duration-ms="1001" status="PASS">
+        <test-method signature="verify_InvalidLogin()[pri:2, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" started-at="2024-12-10T16:42:52 BDT" name="verify_InvalidLogin" finished-at="2024-12-10T16:42:53 BDT" duration-ms="979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_InvalidLogin -->
-        <test-method signature="verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" started-at="2024-12-03T15:42:28 BDT" name="verify_BlankFieldsLogin" finished-at="2024-12-03T15:42:29 BDT" duration-ms="952" status="PASS">
+        <test-method signature="verify_BlankFieldsLogin()[pri:3, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" started-at="2024-12-10T16:42:53 BDT" name="verify_BlankFieldsLogin" finished-at="2024-12-10T16:42:54 BDT" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_BlankFieldsLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_VerifyFormAuthentication@652a7737]" started-at="2024-12-03T15:42:29 BDT" name="tearDown" finished-at="2024-12-03T15:42:29 BDT" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_VerifyFormAuthentication@150ab4ed]" started-at="2024-12-10T16:42:54 BDT" name="tearDown" finished-at="2024-12-10T16:42:54 BDT" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_VerifyFormAuthentication -->
-      <class name="testCases.TC012_VerifyInputsFunctionality">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@f0e995e]" started-at="2024-12-03T15:43:50 BDT" name="setup" finished-at="2024-12-03T15:43:55 BDT" duration-ms="5111" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyNumericInput()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@f0e995e]" started-at="2024-12-03T15:43:55 BDT" name="verifyNumericInput" finished-at="2024-12-03T15:43:56 BDT" duration-ms="1351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNumericInput -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC012_VerifyInputsFunctionality@f0e995e]" started-at="2024-12-03T15:43:56 BDT" name="tearDown" finished-at="2024-12-03T15:43:57 BDT" duration-ms="171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC012_VerifyInputsFunctionality -->
       <class name="testCases.TC009_VerifyDragAndDrop">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_VerifyDragAndDrop@4e28bdd1]" started-at="2024-12-03T15:43:28 BDT" name="setup" finished-at="2024-12-03T15:43:34 BDT" duration-ms="5336" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_VerifyDragAndDrop@546ccad7]" started-at="2024-12-10T16:43:54 BDT" name="setup" finished-at="2024-12-10T16:44:00 BDT" duration-ms="5766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,17 +244,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_DragAndDrop()[pri:0, instance:testCases.TC009_VerifyDragAndDrop@4e28bdd1]" started-at="2024-12-03T15:43:34 BDT" name="verify_DragAndDrop" finished-at="2024-12-03T15:43:35 BDT" duration-ms="842" status="PASS">
+        <test-method signature="verify_DragAndDrop()[pri:0, instance:testCases.TC009_VerifyDragAndDrop@546ccad7]" started-at="2024-12-10T16:44:00 BDT" name="verify_DragAndDrop" finished-at="2024-12-10T16:44:01 BDT" duration-ms="803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_DragAndDrop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_VerifyDragAndDrop@4e28bdd1]" started-at="2024-12-03T15:43:35 BDT" name="tearDown" finished-at="2024-12-03T15:43:35 BDT" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_VerifyDragAndDrop@546ccad7]" started-at="2024-12-10T16:44:01 BDT" name="tearDown" finished-at="2024-12-10T16:44:01 BDT" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC009_VerifyDragAndDrop -->
       <class name="testCases.TC003_VerifyDisappearingElements">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_VerifyDisappearingElements@5b7ea70d]" started-at="2024-12-03T15:42:29 BDT" name="setup" finished-at="2024-12-03T15:42:34 BDT" duration-ms="5645" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_VerifyDisappearingElements@3c435123]" started-at="2024-12-10T16:42:54 BDT" name="setup" finished-at="2024-12-10T16:42:59 BDT" duration-ms="5013" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,13 +270,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_DisappearingElements()[pri:0, instance:testCases.TC003_VerifyDisappearingElements@5b7ea70d]" started-at="2024-12-03T15:42:34 BDT" name="verify_DisappearingElements" finished-at="2024-12-03T15:42:36 BDT" duration-ms="1365" status="FAIL">
+        <test-method signature="verify_DisappearingElements()[pri:0, instance:testCases.TC003_VerifyDisappearingElements@3c435123]" started-at="2024-12-10T16:42:59 BDT" name="verify_DisappearingElements" finished-at="2024-12-10T16:43:00 BDT" duration-ms="1042" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Menu items mismatch after reload #2: lists don't have the same size expected [4] but found [5]]]>
+              <![CDATA[Menu items mismatch after reload #1: lists don't have the same size expected [4] but found [5]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Menu items mismatch after reload #2: lists don't have the same size expected [4] but found [5]
+              <![CDATA[java.lang.AssertionError: Menu items mismatch after reload #1: lists don't have the same size expected [4] but found [5]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -264,13 +319,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_DisappearingElements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_VerifyDisappearingElements@5b7ea70d]" started-at="2024-12-03T15:42:36 BDT" name="tearDown" finished-at="2024-12-03T15:42:36 BDT" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_VerifyDisappearingElements@3c435123]" started-at="2024-12-10T16:43:00 BDT" name="tearDown" finished-at="2024-12-10T16:43:00 BDT" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_VerifyDisappearingElements -->
       <class name="testCases.TC001_VerifyBasicAuthFunctionality">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@14f5da2c]" started-at="2024-12-03T15:42:12 BDT" name="setup" finished-at="2024-12-03T15:42:18 BDT" duration-ms="5961" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@24d4d7c9]" started-at="2024-12-10T16:42:37 BDT" name="setup" finished-at="2024-12-10T16:42:43 BDT" duration-ms="5462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,17 +341,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@14f5da2c]" started-at="2024-12-03T15:42:18 BDT" name="verify_BasicAuthFunctionality" finished-at="2024-12-03T15:42:18 BDT" duration-ms="745" status="PASS">
+        <test-method signature="verify_BasicAuthFunctionality()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@24d4d7c9]" started-at="2024-12-10T16:42:43 BDT" name="verify_BasicAuthFunctionality" finished-at="2024-12-10T16:42:44 BDT" duration-ms="851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_BasicAuthFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@14f5da2c]" started-at="2024-12-03T15:42:18 BDT" name="tearDown" finished-at="2024-12-03T15:42:19 BDT" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_VerifyBasicAuthFunctionality@24d4d7c9]" started-at="2024-12-10T16:42:44 BDT" name="tearDown" finished-at="2024-12-10T16:42:44 BDT" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_VerifyBasicAuthFunctionality -->
-      <class name="testCases.TC010_VerifyJavaScriptAlerts">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" started-at="2024-12-03T15:43:35 BDT" name="setup" finished-at="2024-12-03T15:43:40 BDT" duration-ms="5226" status="PASS">
+      <class name="testCases.TC013_VerifyShiftingContent">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC013_VerifyShiftingContent@485a3466]" started-at="2024-12-10T16:44:20 BDT" name="setup" finished-at="2024-12-10T16:44:26 BDT" duration-ms="5613" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -312,29 +367,96 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_JsAlert()[pri:1, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" started-at="2024-12-03T15:43:40 BDT" name="verify_JsAlert" finished-at="2024-12-03T15:43:40 BDT" duration-ms="605" status="PASS">
+        <test-method signature="verifyImageDoesNotShift()[pri:0, instance:testCases.TC013_VerifyShiftingContent@485a3466]" started-at="2024-12-10T16:44:26 BDT" name="verifyImageDoesNotShift" finished-at="2024-12-10T16:44:27 BDT" duration-ms="1641" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Image position has shifted! expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Image position has shifted! expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at testCases.TC013_VerifyShiftingContent.verifyImageDoesNotShift(TC013_VerifyShiftingContent.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImageDoesNotShift -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC013_VerifyShiftingContent@485a3466]" started-at="2024-12-10T16:44:27 BDT" name="tearDown" finished-at="2024-12-10T16:44:28 BDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC013_VerifyShiftingContent -->
+      <class name="testCases.TC010_VerifyJavaScriptAlerts">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" started-at="2024-12-10T16:44:01 BDT" name="setup" finished-at="2024-12-10T16:44:06 BDT" duration-ms="4847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_JsAlert()[pri:1, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" started-at="2024-12-10T16:44:06 BDT" name="verify_JsAlert" finished-at="2024-12-10T16:44:06 BDT" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_JsAlert -->
-        <test-method signature="verify_JsConfirmAccept()[pri:2, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" started-at="2024-12-03T15:43:40 BDT" name="verify_JsConfirmAccept" finished-at="2024-12-03T15:43:41 BDT" duration-ms="95" status="PASS">
+        <test-method signature="verify_JsConfirmAccept()[pri:2, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" started-at="2024-12-10T16:44:06 BDT" name="verify_JsConfirmAccept" finished-at="2024-12-10T16:44:06 BDT" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_JsConfirmAccept -->
-        <test-method signature="verify_JsConfirmDismiss()[pri:3, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" started-at="2024-12-03T15:43:41 BDT" name="verify_JsConfirmDismiss" finished-at="2024-12-03T15:43:41 BDT" duration-ms="82" status="PASS">
+        <test-method signature="verify_JsConfirmDismiss()[pri:3, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" started-at="2024-12-10T16:44:06 BDT" name="verify_JsConfirmDismiss" finished-at="2024-12-10T16:44:07 BDT" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_JsConfirmDismiss -->
-        <test-method signature="verify_JsPrompt()[pri:4, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" started-at="2024-12-03T15:43:41 BDT" name="verify_JsPrompt" finished-at="2024-12-03T15:43:41 BDT" duration-ms="107" status="PASS">
+        <test-method signature="verify_JsPrompt()[pri:4, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" started-at="2024-12-10T16:44:07 BDT" name="verify_JsPrompt" finished-at="2024-12-10T16:44:07 BDT" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_JsPrompt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_VerifyJavaScriptAlerts@53f48368]" started-at="2024-12-03T15:43:41 BDT" name="tearDown" finished-at="2024-12-03T15:43:41 BDT" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_VerifyJavaScriptAlerts@5357c287]" started-at="2024-12-10T16:44:07 BDT" name="tearDown" finished-at="2024-12-10T16:44:07 BDT" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC010_VerifyJavaScriptAlerts -->
       <class name="testCases.TC006_VerifyAddRemoveElements">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@30f5a68a]" started-at="2024-12-03T15:42:49 BDT" name="setup" finished-at="2024-12-03T15:42:54 BDT" duration-ms="5270" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@7a8fa663]" started-at="2024-12-10T16:43:13 BDT" name="setup" finished-at="2024-12-10T16:43:19 BDT" duration-ms="5503" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -350,17 +472,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_AddRemoveElements()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@30f5a68a]" started-at="2024-12-03T15:42:54 BDT" name="verify_AddRemoveElements" finished-at="2024-12-03T15:43:15 BDT" duration-ms="21194" status="PASS">
+        <test-method signature="verify_AddRemoveElements()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@7a8fa663]" started-at="2024-12-10T16:43:19 BDT" name="verify_AddRemoveElements" finished-at="2024-12-10T16:43:40 BDT" duration-ms="21278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_AddRemoveElements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@30f5a68a]" started-at="2024-12-03T15:43:15 BDT" name="tearDown" finished-at="2024-12-03T15:43:15 BDT" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_VerifyAddRemoveElements@7a8fa663]" started-at="2024-12-10T16:43:40 BDT" name="tearDown" finished-at="2024-12-10T16:43:40 BDT" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC006_VerifyAddRemoveElements -->
       <class name="testCases.TC005_VerifyDropdownListFunctionality">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@650eab8]" started-at="2024-12-03T15:42:42 BDT" name="setup" finished-at="2024-12-03T15:42:48 BDT" duration-ms="5365" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@3a62c01e]" started-at="2024-12-10T16:43:07 BDT" name="setup" finished-at="2024-12-10T16:43:12 BDT" duration-ms="4939" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -376,67 +498,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_DropdownList()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@650eab8]" started-at="2024-12-03T15:42:48 BDT" name="verify_DropdownList" finished-at="2024-12-03T15:42:49 BDT" duration-ms="1001" status="PASS">
+        <test-method signature="verify_DropdownList()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@3a62c01e]" started-at="2024-12-10T16:43:12 BDT" name="verify_DropdownList" finished-at="2024-12-10T16:43:13 BDT" duration-ms="1163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_DropdownList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@650eab8]" started-at="2024-12-03T15:42:49 BDT" name="tearDown" finished-at="2024-12-03T15:42:49 BDT" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_VerifyDropdownListFunctionality@3a62c01e]" started-at="2024-12-10T16:43:13 BDT" name="tearDown" finished-at="2024-12-10T16:43:13 BDT" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC005_VerifyDropdownListFunctionality -->
-      <class name="testCases.TC004_VerifyFileUpload">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_VerifyFileUpload@2bef51f2]" started-at="2024-12-03T15:42:36 BDT" name="setup" finished-at="2024-12-03T15:42:41 BDT" duration-ms="4653" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_FileUpload()[pri:0, instance:testCases.TC004_VerifyFileUpload@2bef51f2]" started-at="2024-12-03T15:42:41 BDT" name="verify_FileUpload" finished-at="2024-12-03T15:42:42 BDT" duration-ms="1277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_FileUpload -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_VerifyFileUpload@2bef51f2]" started-at="2024-12-03T15:42:42 BDT" name="tearDown" finished-at="2024-12-03T15:42:42 BDT" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC004_VerifyFileUpload -->
-      <class name="testCases.TC011_VerifyKeyPresses">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_VerifyKeyPresses@24d4d7c9]" started-at="2024-12-03T15:43:41 BDT" name="setup" finished-at="2024-12-03T15:43:49 BDT" duration-ms="7753" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_KeyPresses()[pri:0, instance:testCases.TC011_VerifyKeyPresses@24d4d7c9]" started-at="2024-12-03T15:43:49 BDT" name="verify_KeyPresses" finished-at="2024-12-03T15:43:50 BDT" duration-ms="1000" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_KeyPresses -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC011_VerifyKeyPresses@24d4d7c9]" started-at="2024-12-03T15:43:50 BDT" name="tearDown" finished-at="2024-12-03T15:43:50 BDT" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC011_VerifyKeyPresses -->
     </test> <!-- Test -->
-  </suite> <!-- Master Suite -->
+  </suite> <!-- Grouping Suite -->
 </testng-results>

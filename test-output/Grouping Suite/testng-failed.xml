@@ -16,6 +16,13 @@
       </run>
     </groups>
     <classes>
+      <class name="testCases.TC013_VerifyShiftingContent">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyImageDoesNotShift"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC013_VerifyShiftingContent -->
       <class name="testCases.TC003_VerifyDisappearingElements">
         <methods>
           <include name="tearDown"/>
